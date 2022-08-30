@@ -22,6 +22,7 @@
             padding-right: 200px;
             padding-top: 5px;
             margin-top: 10px;
+            font-weight: bold;
 
 
         }
@@ -33,23 +34,25 @@
         }
 
         .items {
-            padding-right: 30px;
+            padding-right: 25px;
             padding-top: 10px;
+
         }
 
         .items a {
             color: black;
             text-decoration: none;
+            font-weight: bold;
 
         }
 
         .items a:hover {
-            color: blue;
+            color: #66C4E9;
         }
 
         .active {
 
-            background-color: blue;
+            background-color: #5BC0DE;
             color: #fff;
             border: none;
             min-height: 30px;
@@ -57,7 +60,7 @@
         }
 
         .button {
-            background-color: blue;
+            background-color: #5BC0DE;
             /* Green */
             border: none;
             color: white;
@@ -66,6 +69,16 @@
             display: inline-block;
             font-size: 12px;
             text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .vl {
+            border-left: 6px solid black;
+            height: 30px;
+            position: absolute;
+            padding-right: 0px;
+            padding-top: 10px;
+            top: 10;
         }
     </style>
 </head>
@@ -74,9 +87,9 @@
     <ul class="hello">
         <img src="abc.png" class="logo">
         <div class="logotext">
-            <li><a style="color:aqua"> PHUTUNG</a></li>
-            <li><a style="color:green"> RESEARCH </a></li>
-            <li><a style="color:aqua"> CENTER</a></li>
+            <li><a style="color:#74BEE7"> PHUTUNG</a></li>
+            <li><a style="color:#A6BE42"> RESEARCH </a></li>
+            <li><a style="color:#107BC5"> CENTER</a></li>
         </div>
         <li class="items"><a href=""> HOME </a></li>
         <li class="items"> <a href="#">ABOUT</a></li>
@@ -86,7 +99,9 @@
         <li class="items"><a href="#c">PATICIPATE</a></li>
         <li class="items"><a href="#">OUR TEAM</a></li>
         <li class="items"><a href="#">FQA</a></li>
-
+        <li>
+            <div class="vl"></div>
+        </li>
         <li> <a class="button" href="#">DONATE</a></li>
 
     </ul>
