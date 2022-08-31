@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <style>
+        .body {
+            margin: auto;
+            margin-top: 10px;
+            margin-right: 27;
+            margin-bottom: auto;
+        }
+
         .logo {
             width: 30px;
             height: 30px;
-            margin-right: 25px;
+            margin-right: 5px;
             margin-top: 10px;
             border-radius: 50%;
             padding-top: 0%;
@@ -17,9 +24,9 @@
         }
 
         .logotext {
-            margin-right: -100;
+            margin-right: -90px;
             display: flex;
-            padding-right: 150px;
+            padding-right: 200px;
             padding-top: 5px;
             margin-top: 10px;
             font-weight: bold;
@@ -29,14 +36,14 @@
 
         }
 
-        .hello {
+        .navigation {
             list-style: none;
             display: flex;
             background-color: white;
         }
 
         .items {
-            padding-right: 25px;
+            padding-right: 18px;
             padding-top: 10px;
 
         }
@@ -52,15 +59,6 @@
             color: #66C4E9;
         }
 
-        .active {
-
-            background-color: #5BC0DE;
-            color: #fff;
-            border: none;
-            min-height: 30px;
-            min-width: 120px;
-        }
-
         .button {
             background-color: #5BC0DE;
             border: none;
@@ -71,30 +69,24 @@
             font-size: 12px;
             text-decoration: none;
             border-radius: 8px;
+            margin-left: 20px;
         }
 
-        .vl {
+        .vertical_line {
             border-left: 4px solid #535353;
             height: 10px;
             position: absolute;
             padding-right: 0px;
             padding-top: 15px;
             top: 15;
-            margin-left: -15;
-        }
+            margin-left: -1;
 
-        .body {
-            margin: auto;
-            margin-top: 10px;
-            margin-right: 27;
-            margin-bottom: auto;
-            margin-left: auto;
         }
     </style>
 </head>
 
 <body class="body">
-    <ul class="hello">
+    <ul class="navigation">
         <img src="abc.png" class="logo">
         <div class="logotext">
             <li><a style="color:#74BEE7"> PHUTUNG</a></li>
@@ -111,7 +103,7 @@
         <li class="items"><a href="#">FQA</a></li>
         <li class="items"><a href="#">CONTACT</a></li>
         <li class="item">
-            <div class="vl"></div>
+            <div class="vertical_line"></div>
         </li>
         <li> <a class="button" href="#">DONATE</a></li>
     </ul>
